@@ -4,3 +4,5 @@ deploy.sh
 
 # only ignore subfolders in `models`
 models/*/
+.tar
+build.sh
