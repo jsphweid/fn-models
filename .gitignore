@@ -4,6 +4,9 @@ deploy.sh
 
 # only ignore subfolders in `models`
 models/tfserving/*/
-models/torchserve/*/
+
+
+models/torchserve/*
+
 .tar
 build.sh
