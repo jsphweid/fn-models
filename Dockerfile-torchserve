@@ -1,0 +1,4 @@
+FROM pytorch/torchserve:latest-gpu
+
+COPY models/torchserve /home/model-server/model-store
+COPY torchserve.properties /home/model-server/config.properties
